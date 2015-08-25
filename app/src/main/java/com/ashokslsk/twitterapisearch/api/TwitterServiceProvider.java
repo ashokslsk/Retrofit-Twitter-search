@@ -2,10 +2,14 @@ package com.ashokslsk.twitterapisearch.api;
 
 import android.util.Log;
 
+import com.ashokslsk.twitterapisearch.TwitterSearchApplication;
 import com.ashokslsk.twitterapisearch.event.SearchTweetsEvent;
 import com.ashokslsk.twitterapisearch.event.SearchTweetsEventFailed;
 import com.ashokslsk.twitterapisearch.event.SearchTweetsEventOk;
 import com.ashokslsk.twitterapisearch.event.TwitterGetTokenEvent;
+import com.ashokslsk.twitterapisearch.event.TwitterGetTokenEventFailed;
+import com.ashokslsk.twitterapisearch.event.TwitterGetTokenEventOk;
+import com.ashokslsk.twitterapisearch.util.PrefsController;
 import com.squareup.otto.Bus;
 import com.squareup.otto.Subscribe;
 
@@ -14,6 +18,8 @@ import java.io.UnsupportedEncodingException;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
+
+import static com.ashokslsk.twitterapisearch.util.Util.getBase64String;
 
 /**
  * Created by Ashu on 25/08/15.
