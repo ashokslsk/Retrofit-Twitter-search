@@ -5,9 +5,9 @@ package com.ashokslsk.twitterapisearch.api;
  */
 public class ApiConstants {
 
-    public final static String CONSUMER_KEY = ""; // HIDDEN, please obtain your one on twitter developers
+    public final static String CONSUMER_KEY = "fFexrye5XVDsvWRRitABiLxXb";
 
-    public	final static String CONSUMER_SECRET = "";  // HIDDEN, please obtain your one on twitter developers
+    public	final static String CONSUMER_SECRET = "Ge6Su6tslxm0RJ40AiHfYmuQfCY48ktdlPqz1YWFjsSBrDOV8x";
 
     public final static String TWITTER_SEARCH_URL = "https://api.twitter.com";
 

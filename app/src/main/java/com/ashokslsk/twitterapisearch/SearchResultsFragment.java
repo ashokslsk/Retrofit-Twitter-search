@@ -35,7 +35,7 @@ public class SearchResultsFragment extends ListFragment {
 
     private TextView textResult;
 
-    public static final String ARG_SEARCH_REQUEST = "request";
+    public static final String ARG_SEARCH_REQUEST = "";
 
 
     @Override
