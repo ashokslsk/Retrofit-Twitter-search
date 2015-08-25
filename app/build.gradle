@@ -22,4 +22,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.squareup:otto:1.3.5'
+    compile 'com.squareup.retrofit:retrofit:1.6.0'
+    compile 'net.oauth.core:oauth:20100527'
+    compile 'com.squareup.picasso:picasso:2.3.3'
 }
